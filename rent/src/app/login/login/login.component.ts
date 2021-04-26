@@ -11,8 +11,6 @@ export class LoginComponent implements OnInit {
 
   user: User;
 
-  @Output() loginUser = new EventEmitter()
-
   constructor(
     private sUser: UserService
   ) {
